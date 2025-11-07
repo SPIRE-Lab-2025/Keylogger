@@ -1,0 +1,5 @@
+pip install pynput pywin32
+
+
+pip install psutil
+
