@@ -76,7 +76,16 @@ rm keylog_demo.txt
 del keylog_demo.txt
 ```
 
-## What you will learn from this safe workflow
-- How `antivirus.py` behaves when it inspects running Python processes and command lines.
-- How a logging-formatted file looks (without ever capturing real keystrokes).
-- How to validate detection pipelines in an ethical and safe manner.
+## Learning Objectives
+
+### Keylogger Analysis
+- Understand how keyloggers capture and log user input (keystrokes, mouse clicks)
+- Analyze window tracking and context switching in surveillance software  
+- Examine real-time input capture techniques using `pynput` library
+- Study data formatting and storage methods used by monitoring tools
+
+### Detection & Defense
+- Learn process enumeration and command-line inspection for threat detection
+- Understand heuristic detection based on process names and command-line patterns
+- Analyze real-time monitoring techniques for identifying suspicious Python processes
+- Study how security tools correlate process behavior with known attack patterns
