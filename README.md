@@ -9,14 +9,14 @@
 > - Only use in labs with explicit authorization
 > - Test only with dummy accounts and consenting participants
 
----
+
 
 ## 1) Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
----
+
 
 ## 2) Run Keylogger (Standalone Test):
 ```bash
@@ -34,7 +34,7 @@ python antivirus.py
 ```
 Leave Terminal A running; it prints periodic scans and reports suspicious Python processes it finds.
 
----
+
 
 ## 3.2) Start the keylogger
 
@@ -44,7 +44,7 @@ python keylogger.py
 ```
 The simulator writes synthetic lines to `keylog_demo.txt` for 60 seconds and then exits.
 
----
+
 
 ## 3.3) Inspect outputs
 
@@ -65,7 +65,7 @@ cat keylog_demo.txt
 type keylog_demo.txt
 ```
 
----
+
 
 ## 6) Cleanup
 ```bash
